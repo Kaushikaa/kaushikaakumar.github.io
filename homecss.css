@@ -1,0 +1,58 @@
+.topnav {
+    overflow: hidden;
+    background-color:red;
+  }
+  
+  .topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:black;
+    color:whitesmoke;
+  }
+  
+  .topnav a.active {
+    background-color:yellow;
+    color:black;
+  }
+  #one {
+    background: url("header2.jpeg") 100px ;
+    background-blend-mode:screen;
+    padding: 60px;
+    text-align: center;
+    color: rgb(250, 244, 244);
+    font-size: 30px;
+    
+  }
+  #three{ background-color:black;
+
+  }
+  #two{
+    border: 5px double red;
+    padding: 19px;
+     text-indent: 50px;
+    text-align: justify;
+    color:white;
+    margin:20px;
+  }
+body{
+    background-color: black;
+}
+#box{
+    position: relative;
+  padding: 30px;
+
+}
+#box img {
+    margin-right:20px;
+    margin-left: 30px;
+    border: 5px solid white;
+    border-style: inset;
+  }
+  

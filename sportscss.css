@@ -1,0 +1,39 @@
+.topnav {
+    overflow: hidden;
+    background-color:gold;
+  }
+  
+  .topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:black;
+    color:whitesmoke;
+  }
+  
+  .topnav a.active {
+    background-color:skyblue;
+    color:black;
+  }
+  body{
+    background-image: linear-gradient(pink, purple,red);
+  }
+  header{
+      background: url("sh.jpeg") ;
+      background-blend-mode:screen;
+      margin-bottom: 30px;
+    padding: 60px;
+    text-align:center;
+    color: black;
+    font-size: 30px;
+  }
+  p{
+      padding: 20px;
+      font:  20px "Lucida Console", Courier, monospace;
+  }
